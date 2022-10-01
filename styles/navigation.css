@@ -1,0 +1,51 @@
+nav {
+  width: 100vw; /* vw => Viewport width, 100vw => Occupies 100% viewport width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  color: #ffffff;
+  top: 18px;
+}
+
+.nav-container {
+  height: 88.8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.nav-container .brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container .brand-logo a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.33rem;
+}
+
+.nav-container .navigation-items {
+  min-width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-container .navigation-items ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+.nav-container .navigation-items ul li {
+  display: inline-block;
+  color: inherit;
+}
